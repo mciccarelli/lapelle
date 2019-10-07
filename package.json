@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "now-build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "serve ./out"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
