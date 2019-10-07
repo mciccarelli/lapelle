@@ -1,0 +1,13 @@
+{
+  "scope": "revolve",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    },
+    {
+      "src": "/static/*",
+      "use": "@now/static"
+    }
+  ]
+}
